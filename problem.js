@@ -1,8 +1,8 @@
   function Palindrome(str) {
     const arr = string.split('');
     const arr = arr.reverse();
-    const reverseString = reverseArr.join('');
-    if(string == reverseString) {
+    const reverseString = arr.join('');
+    if(str == reverseString) {
         console.log('It is a palindrome');
     }
     else {
@@ -13,7 +13,13 @@ const string = prompt('Enter a string: ');
 Palindrome(string);
 
 
-// function isPalindrome(x) {
+// /Teacher
+
+// // function isPalindrome(x) {
      
-//     return x.toLowerCase().split('').reverse().join('') === x.toLowerCase();
-//   }
+// //    const x.toLowerCase().split("").reverse().join("") === x.toLowerCase();
+// return x.toLowerCase () === reverse
+// //   }
+
+
+
